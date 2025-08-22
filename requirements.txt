@@ -38,7 +38,7 @@ bandit==1.7.5
 
 newrelic==9.8.0
 uWSGI==2.0.18
-ConcurrentLogHandler==0.9.1; platform_system == "Windows"
+ConcurrentLogHandler==0.9.1
 sentry-sdk==1.37.1
 
 django-cache-utils==0.7.2
