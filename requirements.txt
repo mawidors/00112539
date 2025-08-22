@@ -18,9 +18,37 @@ django-model-utils==4.3.1
 python-dateutil==2.8.2
 mock==5.1.0
 
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/account_client_v2@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/barcode_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/barter_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/common_lib_v2@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/credit_line_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/cs_crypt@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/cs_statsd@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/cstar_clients_v2@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/cstar_lib_v2@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/service_versioning_app_v2@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/fastly_lib@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/fraudlist_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/fresco_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/order_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/payment_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/plastic_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/product_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/reactor_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/risk_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/the_matrix_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/riskified_client@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/pricing_lib@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/locale_lib@1.0.1
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/ecd_client@release/2024.05.01
 py-moneyed==0.8.0
 
+git+https://github.com/CashStar/nap.git@release/2024.05.01
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/jet_setting@2.0.10
+
 pymemcache==4.0.0
+git+https://github.com/CashStar/django-elasticache.git@2.0.0
 
 pylint==3.0.2
 
@@ -38,7 +66,7 @@ bandit==1.7.5
 
 newrelic==9.8.0
 uWSGI==2.0.18
-ConcurrentLogHandler==0.9.1
+ConcurrentLogHandler==0.9.1; platform_system == "Windows"
 sentry-sdk==1.37.1
 
 django-cache-utils==0.7.2
@@ -57,6 +85,7 @@ pytz==2023.3.post1
 # Throttle controls
 redis==2.10.6
 fakeredis==0.6.1
+git+ssh://git@git.blackhawknetwork.com:7999/ocs/redis_utils@release/2024.05.01
 
 ipython==8.13.0
 jedi==0.19.1
